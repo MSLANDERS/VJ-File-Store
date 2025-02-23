@@ -28,14 +28,14 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "AutoFilterPro0_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://testme04161:QRjv15ECzbfA6wE4@cluster0.b005w.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://testme04161:QRjv15ECzbfA6wE4@cluster0.b005w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://motiram4161:tmEIzJdjSaHk82a8@cluster0.q0rqc.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
